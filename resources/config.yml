@@ -1,0 +1,8 @@
+version: 1
+
+#Change the time zone according to where you are
+#If you do not know the time zone where you are, please visit the link : https://www.php.net/manual/en/timezones.php
+
+date_default_timezone_set: "Asia/Ho_Chi_Minh"
+
+notice: "§e§l☞ §aNow is the season §c{SEASON}"
