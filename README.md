@@ -1,2 +1,2 @@
 # SeasonSystem
-Create seasons system in the server
+season system in the server
