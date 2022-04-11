@@ -1,2 +1,2 @@
 # SeasonSystem
-season system in the server
+Season system for Pocketmine-MP
