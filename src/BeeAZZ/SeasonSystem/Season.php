@@ -61,7 +61,7 @@ class Season extends PluginBase implements Listener {
     
     public function onJoin(PlayerJoinEvent $ev){
      $player = $ev->getPlayer();
-     $ss = $this->getSeason();
-     $player->sendMessage(str_replace("{SEASON}", $ss, $this->getConfig()->get("notice")));
+     $this->getSeason();
+     $player->sendMessage(str_replace("{SEASON}", $this->getSeason(), $this->getConfig()->get("notice")));
     }
 }
